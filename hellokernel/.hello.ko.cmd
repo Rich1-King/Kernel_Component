@@ -1,0 +1,1 @@
+cmd_/home/rich1/code/kernel-component/hellokernel/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/rich1/code/kernel-component/hellokernel/hello.ko /home/rich1/code/kernel-component/hellokernel/hello.o /home/rich1/code/kernel-component/hellokernel/hello.mod.o
